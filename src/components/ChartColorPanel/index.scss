@@ -1,0 +1,27 @@
+.abc-chart-colorselect-con{
+  .abc-chart-colorselect{
+    height: 250px;
+  }
+  .ant-tabs-content {
+    width: 280px;
+  }
+  .circle-picker{
+    margin: 10px 0!important;
+  }
+  .ant-input, .ant-select{
+    width: 130px;
+    margin: 5px 0;
+    height: 25px;
+    line-height: 25px;
+  }
+  .ant-select{
+    margin-left: 15px;
+  }
+  .abc-chart-colorselect-footer{
+    text-align: right;
+    .ant-btn{
+      margin: 10px 10px;
+    }
+  }
+
+}
