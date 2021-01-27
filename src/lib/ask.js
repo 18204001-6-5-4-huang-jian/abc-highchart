@@ -1,7 +1,7 @@
 /**
  * @description 异步请求核心
- * @author dhhuang1
- * @date 2018/5/8 下午2:33:41
+ * @author jhuang
+ * @date 2018/5/8 
  */
 
 import axios from 'axios'
@@ -36,22 +36,18 @@ export default function ask(name, opt = {}) {
         method,
         url
     } = api[name]
-
+    
     let instance = axios.create({
         // baseURL,
         // `withCredentials` 表示跨域请求时是否需要使用凭证
         withCredentials: false
     })
-
     // 响应中间处理层
     instance.interceptors.response.use(function (response) {
         // 请求成功后 处理在此
         return response.data
     }, function (error) {
-
         // 请求失败 错误在此
-
-        
         return Promise.reject(error)
     });
 

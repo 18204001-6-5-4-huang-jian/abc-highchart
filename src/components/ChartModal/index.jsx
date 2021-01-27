@@ -1,8 +1,8 @@
-
-/*
-  *导出图片弹出框详细内容
-  *date 2018-05-21
-*/
+/**
+ * 导出图片
+ * @date 2018.01.10
+ * @author jhuang
+ */
 import React ,{Component} from 'react'
 import './index.scss'
 import ReactHighstock from 'react-highcharts/ReactHighstock.src';

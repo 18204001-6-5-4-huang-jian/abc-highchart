@@ -1,7 +1,7 @@
 /**
  * store中心
  * @description 总 store 分配中心
- * @author dhhuang1
+ * @author jhuang
  * @date 2018/5/8 上午9:17:14
  */
 

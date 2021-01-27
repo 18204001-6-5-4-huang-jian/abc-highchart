@@ -1,8 +1,7 @@
-
-/*
-  *输入框颜色筛选
-  * 2018-05-21
-*/
+/**
+ * @date 2018.01.10
+ * @author jhuang
+ */
 import React from 'react'
 import { CustomPicker } from 'react-color'
 import { EditableInput} from 'react-color/lib/components/common'

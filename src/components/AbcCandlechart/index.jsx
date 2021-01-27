@@ -1,7 +1,8 @@
-/*
-  *图表详情页
-  *date 2018-05-21
-*/
+/**
+ * *图表详情页
+ * @date 2018.01.10
+ * @author jhuang
+ */
 import React ,{Component} from 'react'
 import {Popover,Modal,Icon} from 'antd'
 import ReactHighstock from 'react-highcharts/ReactHighstock.src'

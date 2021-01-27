@@ -1,7 +1,7 @@
 /**
  * @description 404
  * @date 2018.01.15
- * @author dhhuang1
+ * @author jhuang
  */
 
 import React, { Component } from 'react'

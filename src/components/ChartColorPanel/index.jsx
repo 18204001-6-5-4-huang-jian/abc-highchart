@@ -1,7 +1,8 @@
-/*
-  *导出图片--颜色筛选
-  *date 2018-05-21
-*/
+/**
+ * 颜色选择
+ * @date 2018.01.10
+ * @author jhuang
+ */
 
 import React from 'react';
 import { Icon, Tabs ,Select,Button} from 'antd';
@@ -148,9 +149,9 @@ class ChartColorPanel extends React.Component {
                             }}
                         />
                         </div>
-                          <div>
-                            <Button onClick={this.handleOK.bind(this)}>确定</Button>
-                            <Button onClick={this.handleCancle.bind(this)}>取消</Button>
+                          <div style={{marginTop:'10px'}}>
+                            <Button type="primary" onClick={this.handleOK.bind(this)} style={{marginLeft:'10px'}}>确定</Button>
+                            <Button type="primary" onClick={this.handleCancle.bind(this)} style={{marginLeft:'10px'}}>取消</Button>
                          </div>
                     </TabPane>
                         )

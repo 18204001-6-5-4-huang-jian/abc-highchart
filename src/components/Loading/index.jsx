@@ -1,7 +1,6 @@
 /**
- * @description Loading 组件
  * @date 2018.01.10
- * @author abc
+ * @author jhuang
  */
 
 import React from 'react'
