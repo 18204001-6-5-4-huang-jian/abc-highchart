@@ -1,6 +1,6 @@
 /*
   *图表详情页
-  *zhzhliu 2018-05-21
+  *date 2018-05-21
 */
 import React ,{Component} from 'react'
 import {Popover,Modal,Icon} from 'antd'

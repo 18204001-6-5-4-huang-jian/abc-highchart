@@ -1,6 +1,6 @@
 /*
   *导出图片--颜色筛选
-  *zhzhliu 2018-05-21
+  *date 2018-05-21
 */
 
 import React from 'react';

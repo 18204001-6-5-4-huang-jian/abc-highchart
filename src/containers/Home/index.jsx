@@ -8,7 +8,6 @@ class Home extends Component {
         super(props)
         this.state = {}
     }
-
     render() {
         const chartData ={
           chartTitle:'平安银行历史股价',

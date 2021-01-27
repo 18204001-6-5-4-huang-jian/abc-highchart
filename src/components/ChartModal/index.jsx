@@ -1,7 +1,7 @@
 
 /*
   *导出图片弹出框详细内容
-  *zhzhliu 2018-05-21
+  *date 2018-05-21
 */
 import React ,{Component} from 'react'
 import './index.scss'

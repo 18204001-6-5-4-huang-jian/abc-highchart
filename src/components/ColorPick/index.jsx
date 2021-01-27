@@ -1,7 +1,7 @@
 
 /*
   *输入框颜色筛选
-  *zhzhliu 2018-05-21
+  * 2018-05-21
 */
 import React from 'react'
 import { CustomPicker } from 'react-color'
